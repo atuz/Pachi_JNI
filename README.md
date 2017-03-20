@@ -3,7 +3,7 @@
 This is the Android version of [Pachi][1], a Go game engine developed by Petr Baudis and Jean-Loup Gailly.
 
 If you make a change to Pachi's code, you have to rebuild the executable with the [Android NDK][2].  
-To do this, open the `jni` folder and enter the command `ndk-build`. If you get errors, try to use the NDK version r10e. Sometimes newer versions require to make some changes to the code. Then copy the executable from `libs/armeabi` to the `app/src/main/res/raw` folder and replace the existing one.
+To do this, open the `jni` folder and enter the command `ndk-build`. If you get errors, try to use the NDK version r10e. Sometimes newer versions require to make some changes to the code. Then copy the executable from `libs/armeabi` to your project.
 
 
 ## Credits
